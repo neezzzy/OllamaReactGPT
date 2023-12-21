@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# OllamaReactGPT | AI Question-Answering System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple AI question-answering system built with React, Local LLM with Ollama and TypeScript. It uses an API to generate AI responses to user questions.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get a local copy up and running, follow these steps:
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Node.js
+- npm
+- [Ollama](https://github.com/jmorganca/ollama)
 
-- Configure the top-level `parserOptions` property like this:
+### Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1. Clone the repo
+```bash
+git clone https://github.com/neezzzy/OllamaReactGPT.git
 ```
+2. Install NPM packages
+```bash
+npm install
+```
+3. Start the development server
+```bash
+npm run dev
+```
+## Usage
+To use the application, simply type your question into the text area and click the "Post question" button. The AI response will be displayed below.
+### Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Fork the Project
+Create your Feature Branch 
+```git
+git checkout -b feature/AmazingFeature
+```
+Commit your Changes 
+```git 
+commit -m 'Add some AmazingFeature'
+```
+Push to the Branch 
+```git
+push origin feature/AmazingFeature
+```
+### License
+Distributed under the MIT License. See LICENSE for more information.
